@@ -1,7 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="293fceeb-f7ef-498a-b61e-f67b4d241384" name="Default Changelist" comment="" />
+    <list default="true" id="293fceeb-f7ef-498a-b61e-f67b4d241384" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/assets/js/components/User/users/editRoles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-jadi.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-jadi.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/ansi-html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/ansi-html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/atob" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/atob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babylon" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/babylon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/bin-version-check" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/bin-version-check" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/color-support" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/color-support" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/csso" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/csso" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/errno" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/errno" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/executable" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/executable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/find-versions" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/find-versions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/gifsicle" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/gifsicle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/he" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/he" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/html-minifier" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/html-minifier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/in-install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/in-publish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/internal-ip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/internal-ip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/json5" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/json5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/lpad-align" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/lpad-align" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/miller-rabin" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/miller-rabin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mozjpeg" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mozjpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/multicast-dns" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/multicast-dns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-gyp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-publish" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/optipng" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/optipng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/pngquant" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/pngquant" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/prettier" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sassgraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-table" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-table" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sha.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sha.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-dirs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-dirs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/svgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/.bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/.bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/acorn/bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/acorn/bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/acorn/bin/acorn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-html/bin/ansi-html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-html/bin/ansi-html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/atob/bin/atob.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/atob/bin/atob.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer-info" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer-info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/bin/babylon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babylon/bin/babylon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bin-version-check/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bin-version-check/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-support/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-support/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/esprima/bin/esparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/esprima/bin/esvalidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/js-yaml/bin/js-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/js-yaml/bin/js-yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/dist/bin/cross-env-shell.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/dist/bin/cross-env-shell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cross-env/dist/bin/cross-env.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cross-env/dist/bin/cross-env.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssesc/bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cssesc/bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssnano/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cssnano/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssnano/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cssnano/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/csso/bin/csso" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/csso/bin/csso" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/errno/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/errno/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/executable/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/executable/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/find-versions/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/find-versions/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gifsicle/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gifsicle/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/gifsicle/vendor/gifsicle" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gifsicle/vendor/gifsicle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/he/bin/he" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/he/bin/he" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/html-minifier/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-minifier/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/uglify-js/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/js-yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/js-yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/svgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/esprima/bin/esparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/esprima/bin/esvalidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/js-yaml/bin/js-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/js-yaml/bin/js-yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/svgo/bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/svgo/bin/svgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/import-local/fixtures/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/import-local/fixtures/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/in-publish/in-install.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/in-publish/in-install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/in-publish/in-publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/in-publish/in-publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/in-publish/not-in-install.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/in-publish/not-in-install.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/in-publish/not-in-publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/in-publish/not-in-publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/internal-ip/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/internal-ip/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-yaml/bin/js-yaml.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/js-yaml/bin/js-yaml.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsesc/bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/json5/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/json5/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/loose-envify/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lpad-align/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lpad-align/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/miller-rabin/bin/miller-rabin" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/miller-rabin/bin/miller-rabin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mime/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mime/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mkdirp/bin/cmd.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mozjpeg/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mozjpeg/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/multicast-dns/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/multicast-dns/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/bin/node-gyp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/bin/node-gyp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/optipng-bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/optipng-bin/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/optipng-bin/vendor/optipng" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/optipng-bin/vendor/optipng" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pngquant-bin/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pngquant-bin/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pngquant-bin/vendor/pngquant" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pngquant-bin/vendor/pngquant" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/prettier/bin-prettier.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rc/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rc/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esparse" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esparse" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esvalidate" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esvalidate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/esprima/bin/esparse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/esprima/bin/esparse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/esprima/bin/esvalidate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/esprima/bin/esvalidate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regjsparser/bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regjsparser/bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/.bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/.bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/jsesc/bin/jsesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/jsesc/bin/jsesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rimraf/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rimraf/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sass-graph/bin/sassgraph" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-graph/bin/sassgraph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/seek-bzip/bin/seek-bunzip" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/seek-bzip/bin/seek-bunzip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/seek-bzip/bin/seek-bzip-table" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/seek-bzip/bin/seek-bzip-table" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sha.js/bin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sha.js/bin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-conv" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-conv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-sign" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-sign" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-verify" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sshpk/bin/sshpk-verify" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-dirs/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-dirs/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-indent/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-indent/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/svgo/bin/svgo" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/svgo/bin/svgo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uglify-js/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/.bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/.bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/uglify-es/bin/uglifyjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/uglify-es/bin/uglifyjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uuid/bin/uuid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/uuid/bin/uuid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/mime/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-server/bin/webpack-dev-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack/bin/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/bin/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which/bin/which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which/bin/which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/custome.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/users/createUser.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/users/createRoles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/users/userIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/users/indexRoles.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/routers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,32 +313,83 @@
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
     </session>
+    <session id="-1885560028">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="env" value="2" />
+          <entry key="js" value="7" />
+          <entry key="json" value="3" />
+          <entry key="php" value="23" />
+          <entry key="vue" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key=".env file" value="2" />
+          <entry key="Blade" value="2" />
+          <entry key="JSON" value="3" />
+          <entry key="JavaScript" value="7" />
+          <entry key="PHP" value="21" />
+          <entry key="Vue.js" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="28" />
+          <entry key="js" value="595" />
+          <entry key="php" value="2040" />
+          <entry key="vue" value="2167" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key=".env file" value="28" />
+          <entry key="Blade" value="136" />
+          <entry key="JavaScript" value="595" />
+          <entry key="PHP" value="1904" />
+          <entry key="Vue.js" value="2167" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1782">
-              <caret line="321" column="50" selection-start-line="321" selection-start-column="49" selection-end-line="321" selection-end-column="50" />
+            <state relative-caret-position="280">
+              <caret line="18" column="101" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="101" />
+              <folding>
+                <element signature="e#240#318#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/createUser.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="106">
+              <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/ExampleComponent.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -151,50 +397,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="1000">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="80">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
-                <element signature="e#248#282#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#40#59#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="460">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/userIndex.vue">
+        <entry file="file://$PROJECT_DIR$/app/Permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="80">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -204,10 +438,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/resources/assets/js/components/User/users</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -216,16 +458,25 @@
         <option value="$PROJECT_DIR$/resources/assets/js/components/userIndex.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/userIndex.vue" />
         <option value="$PROJECT_DIR$/public/starter.html" />
-        <option value="$PROJECT_DIR$/public/js/custome.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/users/userIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/users/createUser.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/users/editUser.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/users/createUser.vue" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/users/createRoles.vue" />
+        <option value="$PROJECT_DIR$/app/Permission.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
+        <option value="$PROJECT_DIR$/public/js/custome.js" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
       </list>
     </option>
   </component>
@@ -335,74 +586,103 @@
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/asm89/stack-cors" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-cors" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1556" />
-    <option name="y" value="4" />
-    <option name="width" value="855" />
-    <option name="height" value="557" />
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="708" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -410,8 +690,8 @@
               <item name="User" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -420,8 +700,8 @@
               <item name="permissions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
@@ -430,14 +710,29 @@
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="routers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -449,6 +744,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Belajar\Website Fundamental\Laravel\project-jadi\resources\assets\js\components\User" />
       <recent name="$PROJECT_DIR$/resources/assets/js/components/users" />
@@ -479,31 +777,36 @@
       <workItem from="1533746485143" duration="2901000" />
       <workItem from="1533782049726" duration="12563000" />
       <workItem from="1533795416139" duration="1679000" />
+      <workItem from="1533830029198" duration="5615000" />
+      <workItem from="1533864140078" duration="7970000" />
+      <workItem from="1533889020735" duration="2276000" />
+      <workItem from="1533892503507" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17143000" />
+    <option name="totallyTimeSpent" value="34520000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="708" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16439395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32871974" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931036" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4948097" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -518,13 +821,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/userIndex.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/starter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -532,75 +828,191 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/custome.js">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/editRoles.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="20">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_161228_create_table_role_has_menus.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160838_create_table_role_has_permissions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160744_create_table_user_has_role.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160651_create_menus_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160609_create_permissions_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160548_create_roles_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/indexRoles.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="25" column="10" selection-start-line="2" selection-start-column="4" selection-end-line="25" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/createRoles.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/userIndex.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="58">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#248#282#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1782">
-          <caret line="321" column="50" selection-start-line="321" selection-start-column="49" selection-end-line="321" selection-end-column="50" />
+        <state relative-caret-position="40">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
+    <entry file="file://$PROJECT_DIR$/config/cors.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="100">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
+    <entry file="file://$PROJECT_DIR$/public/js/custome.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/users/createUser.vue">
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="152" column="45" selection-start-line="152" selection-start-column="45" selection-end-line="152" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="280">
+          <caret line="18" column="101" selection-start-line="18" selection-start-column="85" selection-end-line="18" selection-end-column="101" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#240#318#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="9" selection-start-line="18" selection-start-column="8" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+          <folding>
+            <element signature="e#40#59#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="58" column="28" selection-start-line="58" selection-start-column="28" selection-end-line="58" selection-end-column="28" />
         </state>
       </provider>
     </entry>

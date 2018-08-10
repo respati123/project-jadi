@@ -17,13 +17,21 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-Route::get('/users', function(){
-    return view('welcome');
-});
-
-Route::group(['prefix'=>'users', 'as' => 'users.'], function(){
+Route::group(['prefix'=>'roles', 'as' => 'roles.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('role', '[\/\w\.-]*')->name('index');
    Route::get('create', function(){
       return view('welcome');
-   })->where('user-create', '[\/\w\.-]*');
+   })->where('role-create', '[\/\w\.-]*')->name('create');
+});
+
+
+Route::group(['prefix'=>'permissions', 'as' => 'permissions.'], function(){
+   Route::get('/', function(){
+      return view('welcome');
+   })->where('permission', '[\/\w\.-]*')->name('index');
+   Route::get('/create', function(){
+      return view('welcome');
+   })->where('create-permission', '[\/\w\.-]*')->name('create');
 });

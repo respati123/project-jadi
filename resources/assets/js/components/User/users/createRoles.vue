@@ -23,22 +23,21 @@
                             <div class="col-sm-10">
                                 <div class="textboxt-with-button" v-if="isEmpty">
                                     <p>tidak ada data permission</p>
-                                    <router-link  :to="{name: 'createUser'}">Create Permissions</router-link>
+                                    <router-link  :to="{name: 'createPermissions'}">Create Permissions</router-link>
                                 </div>
                                 <select v-else multiple="true" class="form-control" v-model="multipleSelected">
                                     <option v-for="option in options"
-                                    :value="option.language">
-                                        {{option.name}}
+                                    :value="roles.name">
+                                        {{roles.name}}
                                     </option>
                                 </select>
-                                <pre>{{ multipleSelected }}</pre>
 
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
-                                <!--<button class="btn btn-primary" v-bind:onclick="saveData">save</button>-->
-                                <!--<button class="btn btn-warning" v-bind:onclick="back">Back</button>-->
+                                <button class="btn btn-primary" v-bind:onclick="saveData">save</button>
+                                <button class="btn btn-warning" v-bind:onclick="btnBack">Back</button>
                             </div>
                         </div>
                     </div>
@@ -61,22 +60,20 @@
             return {
 
                 multipleSelected: [],
-                options: [],
-                roles: [
-                    {
-                        name: "respati",
-                        selected: false,
-                    },
-                    {
-                        name: "respati",
-                        selected: false,
-                    },
-                ]
+                roles: []
             }
         },
         computed: {
             isEmpty: function(){
                 return this.roles.length === 0;
+            }
+        },
+        methods: {
+            saveData: function(){
+
+            },
+            btnBack: function(){
+
             }
         }
 
