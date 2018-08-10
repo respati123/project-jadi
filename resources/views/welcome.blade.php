@@ -310,8 +310,8 @@
 
 
 <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/js/app.js"></script>
 <script src="/js/custome.js"></script>
+<script src="/js/app.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- DataTables -->
@@ -326,7 +326,21 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 
+<script>
+    $(function () {
+        $('#example1').DataTable()
+        $('#example2').DataTable({
 
+            'paging'      : true,
+            'lengthChange': false,
+            'searching'   : false,
+            'ordering'    : true,
+            'info'        : true,
+            'autoWidth'   : true
+        })
+    });
+
+</script>
 
 
 </body>

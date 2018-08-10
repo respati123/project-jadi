@@ -28,6 +28,7 @@ class PermissionsController extends Controller
 
     public function permissionGet(){
 
-        return response()->json('data ada');
+        $permission = Permission::all();
+        return response()->json(['data' => $permission], 200);
     }
 }

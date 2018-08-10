@@ -39830,7 +39830,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -39868,6 +39868,35 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     name: "permissionsIndex",
@@ -39875,19 +39904,16 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return {
             alertSuccess: false,
             permissionData: [],
-            data: []
+            results: []
         };
     },
 
     methods: {
         readData: function readData() {
+            var _this = this;
+
             axios.get("http://127.0.0.1:8000/api/v1/getdatapermissions").then(function (response) {
-                console.log(response.data);
-                // this.data = response.data;
-                // this.data.forEach(function(item){
-                //    console.log("found :", item);
-                //    console.log("found in:", item.id);
-                // });
+                _this.results = response.data.data;
             }, function (error) {
                 console.log(error.message);
             });
@@ -39933,15 +39959,7 @@ var render = function() {
       1
     ),
     _vm._v(" "),
-    _vm._m(0)
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "box-body" }, [
+    _c("div", { staticClass: "box-body" }, [
       _c(
         "table",
         {
@@ -39949,23 +39967,84 @@ var staticRenderFns = [
           attrs: { id: "example1" }
         },
         [
-          _c("thead", [
-            _c("tr", [
-              _c("th", [_vm._v("Permission Name")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Created By")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Created At")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Modifier By")]),
-              _vm._v(" "),
-              _c("th", [_vm._v("Modifier At")])
-            ])
-          ]),
+          _vm._m(0),
           _vm._v(" "),
-          _c("tbody")
+          _c(
+            "tbody",
+            _vm._l(_vm.results, function(result) {
+              return _c("tr", [
+                _c("td", [_vm._v(_vm._s(result.name))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(result.created_by))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(result.created_at))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(result.modifier_by))]),
+                _vm._v(" "),
+                _c("td", [_vm._v(_vm._s(result.modifier_at))]),
+                _vm._v(" "),
+                _c(
+                  "td",
+                  [
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "btn btn-primary",
+                        attrs: { to: { path: "permissions/edit/" + result.id } }
+                      },
+                      [
+                        _c("i", { staticClass: "fa fa-pencil" }),
+                        _vm._v(
+                          "\n                            edit\n                        "
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "router-link",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: {
+                          to: { path: "permissions/delete/" + result.id }
+                        }
+                      },
+                      [
+                        _c("i", { staticClass: "fa fa-times" }),
+                        _vm._v(
+                          "\n                            delete\n                        "
+                        )
+                      ]
+                    )
+                  ],
+                  1
+                )
+              ])
+            })
+          )
         ]
       )
+    ])
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("thead", [
+      _c("tr", [
+        _c("th", [_vm._v("Permission Name")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Created By")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Created At")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Modifier By")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Modifier At")]),
+        _vm._v(" "),
+        _c("th", [_vm._v("Execute")])
+      ])
     ])
   }
 ]
@@ -40337,7 +40416,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -40352,9 +40431,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    name: "permissionsEdit"
+    name: "permissionsEdit",
+    data: function data() {
+        return {};
+    },
+    methods: function methods() {}
 });
 
 /***/ }),
@@ -40365,9 +40480,95 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _c("div", [
+    _c("div", { staticClass: "col-md-12" }, [
+      _c("div", { staticClass: "box box-info" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("form", { staticClass: "form-horizontal" }, [
+          _c("div", { staticClass: "box-body" }, [
+            _c("div", { staticClass: "form-group" }, [
+              _c(
+                "label",
+                {
+                  staticClass: "col-sm-2 control-label",
+                  attrs: { for: "inputName" }
+                },
+                [_vm._v("Permissions name")]
+              ),
+              _vm._v(" "),
+              _c("div", { staticClass: "col-sm-10" }, [
+                _c("input", {
+                  directives: [
+                    {
+                      name: "model",
+                      rawName: "v-model",
+                      value: _vm.permission.name,
+                      expression: "permission.name"
+                    }
+                  ],
+                  staticClass: "form-control",
+                  attrs: {
+                    id: "inputName",
+                    placeholder: "Permissions",
+                    type: "text"
+                  },
+                  domProps: { value: _vm.permission.name },
+                  on: {
+                    input: function($event) {
+                      if ($event.target.composing) {
+                        return
+                      }
+                      _vm.$set(_vm.permission, "name", $event.target.value)
+                    }
+                  }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "form-group" }, [
+              _c("div", { staticClass: "col-sm-10 col-sm-offset-2" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary",
+                    attrs: { type: "button" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.updateData($event)
+                      }
+                    }
+                  },
+                  [_vm._v("save")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-warning",
+                    attrs: { type: "button", onclick: _vm.permissionBack }
+                  },
+                  [_vm._v("Back")]
+                )
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box-header with-border" }, [
+      _c("h3", { staticClass: "box-title" }, [_vm._v("Permissions Edit")])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {

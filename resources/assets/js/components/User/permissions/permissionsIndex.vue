@@ -14,10 +14,39 @@
                     <th>Created At</th>
                     <th>Modifier By</th>
                     <th>Modifier At</th>
+                    <th>Execute</th>
                 </tr>
                 </thead>
                 <tbody>
-
+                    <tr v-for="result in results">
+                        <td>{{ result.name }}</td>
+                        <td>{{ result.created_by }}</td>
+                        <td>{{ result.created_at }}</td>
+                        <td>{{ result.modifier_by }}</td>
+                        <td>{{ result.modifier_at }}</td>
+                        <td>
+                            <router-link :to="{ path: 'permissions/edit/'+ result.id}" class="btn btn-primary">
+                                <i class="fa fa-pencil"></i>
+                                edit
+                            </router-link>
+                            <router-link class="btn btn-danger" :to="{ path: 'permissions/delete/' + result.id}">
+                                <i class="fa fa-times"></i>
+                                delete
+                            </router-link>
+                        </td>
+                        <!--<td>-->
+                            <!--<router-link :to="{ path: '/permissions/edit/' + result.id }" class="btn btn-primary">-->
+                            <!--<i class="fa fa-pencil"></i>-->
+                            <!--Edit-->
+                            <!--</router-link>-->
+                        <!--</td>-->
+                        <!--<td>-->
+                            <!--<button class="btn btn-danger">-->
+                                <!--<i class="fa fa-times"></i>-->
+                                <!--Delete-->
+                            <!--</button>-->
+                        <!--</td>-->
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -32,19 +61,14 @@
             return {
                 alertSuccess: false,
                 permissionData: [],
-                data: []
+                results: []
             }
         },
         methods: {
             readData() {
                 axios.get("http://127.0.0.1:8000/api/v1/getdatapermissions")
                     .then((response) => {
-                        console.log(response.data);
-                       // this.data = response.data;
-                       // this.data.forEach(function(item){
-                       //    console.log("found :", item);
-                       //    console.log("found in:", item.id);
-                       // });
+                     this.results = response.data.data;
                     }, (error) => {
                           console.log(error.message);
                     });

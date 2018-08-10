@@ -21,4 +21,4 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('v1/post', 'PermissionsController@permissionPost');
-Route::post('v1/getdatapermissions', 'PermissionsController@permissionGet');
+Route::get('v1/getdatapermissions', 'PermissionsController@permissionGet');
