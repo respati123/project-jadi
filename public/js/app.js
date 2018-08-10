@@ -39990,7 +39990,12 @@ var render = function() {
                       "router-link",
                       {
                         staticClass: "btn btn-primary",
-                        attrs: { to: { path: "permissions/edit/" + result.id } }
+                        attrs: {
+                          to: {
+                            name: "editPermissions",
+                            params: { id: result.id }
+                          }
+                        }
                       },
                       [
                         _c("i", { staticClass: "fa fa-pencil" }),
@@ -40416,7 +40421,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -40465,10 +40470,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+
     name: "permissionsEdit",
-    data: function data() {
-        return {};
+    mounted: function mounted() {
+        var app = this;
+        var id = app.$route.params.id;
+        app.permissionId = id;
+        axios.get('');
     },
+
+    data: function data() {
+        return {
+            permissionId: null,
+            permission: {
+                name: ''
+            }
+        };
+    },
+
     methods: function methods() {}
 });
 

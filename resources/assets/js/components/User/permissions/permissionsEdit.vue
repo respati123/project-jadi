@@ -36,12 +36,25 @@
 
 <script>
     export default {
+
         name: "permissionsEdit",
+        mounted() {
+            let app = this;
+            let id = app.$route.params.id;
+            app.permissionId = id;
+            axios.get('')
+
+
+        },
         data: function(){
             return {
-
+                permissionId: null,
+                permission: {
+                    name: ''
+                }
             }
         },
+
         methods: function(){
 
         }

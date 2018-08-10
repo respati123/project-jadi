@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293fceeb-f7ef-498a-b61e-f67b4d241384" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/custome.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/custome.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -143,7 +141,7 @@
           <entry key="env" value="2" />
           <entry key="js" value="11" />
           <entry key="json" value="3" />
-          <entry key="php" value="24" />
+          <entry key="php" value="27" />
           <entry key="vue" value="13" />
         </counts>
       </usages-collector>
@@ -153,7 +151,7 @@
           <entry key="Blade" value="3" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="11" />
-          <entry key="PHP" value="21" />
+          <entry key="PHP" value="24" />
           <entry key="Vue.js" value="13" />
         </counts>
       </usages-collector>
@@ -161,8 +159,8 @@
         <counts>
           <entry key="env" value="28" />
           <entry key="js" value="605" />
-          <entry key="php" value="2128" />
-          <entry key="vue" value="3261" />
+          <entry key="php" value="2322" />
+          <entry key="vue" value="3488" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -170,8 +168,13 @@
           <entry key=".env file" value="28" />
           <entry key="Blade" value="144" />
           <entry key="JavaScript" value="605" />
-          <entry key="PHP" value="1984" />
-          <entry key="Vue.js" value="3261" />
+          <entry key="PHP" value="2178" />
+          <entry key="Vue.js" value="3488" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP Class.type" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -182,7 +185,7 @@
         <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+              <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
               <folding>
                 <element signature="e#240#318#0" expanded="true" />
               </folding>
@@ -190,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="280">
+              <caret line="47" column="36" selection-start-line="36" selection-start-column="24" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -202,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="-14">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -212,7 +215,7 @@
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="33" column="10" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
+              <caret line="33" column="10" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#template#0;n#!!top" />
               </folding>
@@ -221,19 +224,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="332" selection-start-line="332" selection-end-line="332" />
+            <state relative-caret-position="105">
+              <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+        <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -275,13 +287,14 @@
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/public/js/custome.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" />
+        <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" />
       </list>
     </option>
   </component>
@@ -434,6 +447,14 @@
               <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
               <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -562,12 +583,12 @@
       <workItem from="1533830029198" duration="5615000" />
       <workItem from="1533864140078" duration="7970000" />
       <workItem from="1533889020735" duration="2276000" />
-      <workItem from="1533892503507" duration="4362000" />
+      <workItem from="1533892503507" duration="5699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37366000" />
+    <option name="totallyTimeSpent" value="38703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="708" extended-state="6" />
@@ -588,7 +609,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.183391" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4134948" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -680,13 +701,6 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -727,7 +741,7 @@
     <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="70" lean-forward="true" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
+          <caret line="20" column="70" selection-start-line="20" selection-start-column="70" selection-end-line="20" selection-end-column="70" />
           <folding>
             <element signature="e#240#318#0" expanded="true" />
           </folding>
@@ -736,13 +750,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/custome.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="332" selection-start-line="332" selection-end-line="332" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/ExampleComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -761,17 +768,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Permission.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="47" column="36" selection-start-line="36" selection-start-column="24" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
         </state>
       </provider>
     </entry>
@@ -785,24 +806,31 @@
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="33" column="10" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
+          <caret line="33" column="10" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#template#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="105">
+          <caret line="25" column="55" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+          <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>

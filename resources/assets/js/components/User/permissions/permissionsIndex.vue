@@ -25,7 +25,7 @@
                         <td>{{ result.modifier_by }}</td>
                         <td>{{ result.modifier_at }}</td>
                         <td>
-                            <router-link :to="{ path: 'permissions/edit/'+ result.id}" class="btn btn-primary">
+                            <router-link :to="{ name: 'editPermissions', params: { id : result.id }}" class="btn btn-primary">
                                 <i class="fa fa-pencil"></i>
                                 edit
                             </router-link>

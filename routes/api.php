@@ -21,4 +21,6 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('v1/post', 'PermissionsController@permissionPost');
-Route::get('v1/getdatapermissions', 'PermissionsController@permissionGet');
+Route::group(['prefix' => '/v1', 'namespace' => 'Api\v1', 'as' => 'api.'], function(){
+   Route::resource('permissions', 'PermissionsController', ['expect' => ['create','edit']]);
+});
