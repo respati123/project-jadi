@@ -39830,7 +39830,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -39881,14 +39881,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     methods: {
         readData: function readData() {
-            var _this = this;
-
             axios.get("http://127.0.0.1:8000/api/v1/getdatapermissions").then(function (response) {
-                _this.data = response.data;
-                _this.data.forEach(function (item) {
-                    console.log("found :", item);
-                    console.log("found in:", item.id);
-                });
+                console.log(response.data);
+                // this.data = response.data;
+                // this.data.forEach(function(item){
+                //    console.log("found :", item);
+                //    console.log("found in:", item.id);
+                // });
             }, function (error) {
                 console.log(error.message);
             });
@@ -39898,6 +39897,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
         this.alertSuccess = this.$route.params.alertSuccess;
         console.log(this.alertSuccess);
+    },
+
+    created: function created() {
+        this.readData();
     }
 });
 
