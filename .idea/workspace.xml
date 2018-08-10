@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293fceeb-f7ef-498a-b61e-f67b4d241384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,8 +158,8 @@
         <counts>
           <entry key="env" value="28" />
           <entry key="js" value="605" />
-          <entry key="php" value="2322" />
-          <entry key="vue" value="3488" />
+          <entry key="php" value="2384" />
+          <entry key="vue" value="3662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -168,8 +167,8 @@
           <entry key=".env file" value="28" />
           <entry key="Blade" value="144" />
           <entry key="JavaScript" value="605" />
-          <entry key="PHP" value="2178" />
-          <entry key="Vue.js" value="3488" />
+          <entry key="PHP" value="2240" />
+          <entry key="Vue.js" value="3662" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
@@ -205,8 +204,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="187">
+              <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -214,8 +213,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="33" column="10" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
+            <state relative-caret-position="360">
+              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
               <folding>
                 <element signature="n#div#0;n#template#0;n#!!top" />
               </folding>
@@ -235,8 +234,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+            <state relative-caret-position="520">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -244,8 +243,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="207">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -284,7 +283,6 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/users/createRoles.vue" />
         <option value="$PROJECT_DIR$/app/Permission.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" />
@@ -292,8 +290,9 @@
         <option value="$PROJECT_DIR$/public/js/custome.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php" />
       </list>
     </option>
@@ -583,18 +582,18 @@
       <workItem from="1533830029198" duration="5615000" />
       <workItem from="1533864140078" duration="7970000" />
       <workItem from="1533889020735" duration="2276000" />
-      <workItem from="1533892503507" duration="5699000" />
+      <workItem from="1533892503507" duration="6359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38703000" />
+    <option name="totallyTimeSpent" value="39363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="708" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2689394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -609,7 +608,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4134948" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4134948" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -782,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -803,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="33" column="10" selection-start-line="1" selection-start-column="2" selection-end-line="33" selection-end-column="10" />
-          <folding>
-            <element signature="n#div#0;n#template#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -822,15 +804,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="24" column="92" selection-start-line="24" selection-start-column="92" selection-end-line="24" selection-end-column="92" />
+        <state relative-caret-position="520">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+          <folding>
+            <element signature="n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="49" column="48" selection-start-line="49" selection-start-column="48" selection-end-line="49" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="207">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>

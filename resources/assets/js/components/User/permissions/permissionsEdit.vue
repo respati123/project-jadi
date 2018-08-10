@@ -42,7 +42,13 @@
             let app = this;
             let id = app.$route.params.id;
             app.permissionId = id;
-            axios.get('')
+            axios.get('api/v1/permissions' + id)
+                .then((response) => {
+                    console.log(response.data);
+                    app.permission = response.data;
+                }, (error) => {
+                    console.log(error.messages);
+                });
 
 
         },

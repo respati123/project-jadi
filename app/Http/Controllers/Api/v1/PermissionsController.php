@@ -13,5 +13,10 @@ use App\Http\Controllers\Controller;
 
 class PermissionsController extends Controller
 {
-    
+
+    public function index(){
+
+        
+        return response()->json('');
+    }
 }

@@ -40214,7 +40214,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         saveData: function saveData() {
             var _this = this;
 
-            __WEBPACK_IMPORTED_MODULE_0_axios___default.a.post('http://127.0.0.1:8000/api/v1/post', this.permission).then(function (response) {
+            __WEBPACK_IMPORTED_MODULE_0_axios___default.a.post('api/v1/permission', this.permission).then(function (response) {
                 _this.$router.push({
                     name: 'indexPermissions',
                     params: {
@@ -40421,7 +40421,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -40476,7 +40476,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         var app = this;
         var id = app.$route.params.id;
         app.permissionId = id;
-        axios.get('');
+        axios.get('api/v1/permissions' + id).then(function (response) {
+            console.log(response.data);
+            app.permission = response.data;
+        }, function (error) {
+            console.log(error.messages);
+        });
     },
 
     data: function data() {
