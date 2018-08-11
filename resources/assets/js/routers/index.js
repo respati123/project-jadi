@@ -1,6 +1,7 @@
 import VueRouter from 'vue-router'
 import componentIndex from '../components/User/users/userIndex'
 import createUser from '../components/User/users/createUser'
+import editUser from '../components/User/users/editUser'
 
 const router = new VueRouter({
     routes: [
@@ -17,7 +18,8 @@ const router = new VueRouter({
         },
         {
             path:'/users/edit/:id',
-            component:
+            component: editUser,
+            name: 'editUser'
         }
     ],
     mode: 'history'
