@@ -201,17 +201,16 @@
 
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="header">HEADER</li>
-                <li class="active"><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
-                <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
                         <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#">Link in level 2</a></li>
-                        <li><a href="#">Link in level 2</a></li>
+                        <li><a href="">Users</a></li>
+                        <li><a href="{{ route('roles.index') }}">Roles</a></li>
+                        <li><a href="{{ route('permissions.index') }}">Permissions</a></li>
                     </ul>
                 </li>
             </ul>
@@ -311,8 +310,8 @@
 
 
 <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/js/app.js"></script>
 <script src="/js/custome.js"></script>
+<script src="/js/app.js"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- DataTables -->
@@ -327,7 +326,21 @@
 <!-- AdminLTE for demo purposes -->
 <script src="../../dist/js/demo.js"></script>
 
+<script>
+    $(function () {
+        $('#example1').DataTable()
+        $('#example2').DataTable({
 
+            'paging'      : true,
+            'lengthChange': false,
+            'searching'   : false,
+            'ordering'    : true,
+            'info'        : true,
+            'autoWidth'   : true
+        })
+    });
+
+</script>
 
 
 </body>
