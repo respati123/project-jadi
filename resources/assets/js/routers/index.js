@@ -1,6 +1,10 @@
 import VueRouter from 'vue-router'
-import componentIndex from '../components/User/users/userIndex'
-import createUser from '../components/User/users/createUser'
+import indexRoles from '../components/User/roles/indexRoles'
+import createRoles from '../components/User/roles/createRoles'
+import editRoles from '../components/User/roles/editRoles'
+import permissionsIndex from '../components/User/permissions/permissionsIndex'
+import createPermissions from '../components/User/permissions/permissionsCreate'
+import editPermissions from '../components/User/permissions/permissionsEdit'
 
 
 const router = new VueRouter({

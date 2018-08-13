@@ -8,7 +8,7 @@
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
-                <form class="form-horizontal">
+                <form class="form-horizontal" @submit.prevent="saveData" >
                     <div class="box-body">
                         <div class="form-group">
                             <label for="inputName" class="col-sm-2 control-label">Permissions name</label>
@@ -20,7 +20,7 @@
 
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
-                                <button class="btn btn-primary" type="button" @click.prevent="saveData">save</button>
+                                <button class="btn btn-primary" type="submit">save</button>
                                 <button class="btn btn-warning" type="button" :onclick="permissionBack">Back</button>
                             </div>
                         </div>
@@ -32,6 +32,7 @@
 
         </div>
     </div>
+
 </template>
 
 <script>
@@ -48,17 +49,22 @@
         },
         methods: {
             saveData: function(){
-                axios.post('api/v1/permission', this.permission)
+                console.log('masuk sini');
+                axios.post("/api/v1/permissions", this.permission)
                     .then((response) => {
+                        console.log(response.data);
+                        let message = response.data.messages;
                         this.$router.push({
                             name: 'indexPermissions',
                             params: {
-                                alertSuccess: true
+                                alertBoolean: true,
+                                alertMessage: message
                             }
-                        })
+                        });
+                        console.log(response);
                     }, (error) => {
-                        console.log(error);
-                    })
+                        console.log(error.messages);
+                    });
             },
             permissionBack: function(){
 
