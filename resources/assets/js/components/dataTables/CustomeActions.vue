@@ -19,7 +19,7 @@
     },
     methods: {
       itemAction (action, data, index) {
-        console.log('custom-actions: ' + action, data.name, index)
+        this.$events.$emit('itemAction',  { action: action, data:data, index:index});
       }
     }
   }

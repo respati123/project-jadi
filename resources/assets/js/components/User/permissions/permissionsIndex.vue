@@ -6,7 +6,7 @@
             <hr class="divider">
         </div>
         <div>
-            <my-vuetables :url="message" :field="fields"></my-vuetables>
+            <my-vuetables :url="url" :field="fields"></my-vuetables>
         </div>
         <div class="alert-top alert alert-success">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -28,7 +28,7 @@
         data() {
             return {
                 alertSuccess: false,
-                message: 'http://127.0.0.1:8000/api/v1/permissions',
+                url: 'http://127.0.0.1:8000/api/v1/permissions',
                 permissionData: [],
                 fields: [
                     {
@@ -76,6 +76,21 @@
                     }, (error) => {
                           console.log(error.message);
                     });
+            },
+            actionDataTables(action, data, index){
+                switch (action) {
+                    case 'view-item':
+                        console.log('masuk view');
+                        break;
+                    case 'edit-item':
+                        console.log('masuk edit');
+                        break;
+                    case 'delete-item':
+                        console.log('masuk delete');
+                        break;
+                    default:
+                        break;
+                }
             }
         },
         mounted() {
@@ -86,8 +101,9 @@
                 this.messages = this.$router.params.alertMessage;
             }
             console.log(this.alertSuccess + "," + this.messages);
-
-
+            this.$events.$on('itemAction', eventData => {
+                this.actionDataTables(eventData.action, eventData.data.id, eventData.index);
+            });
         },
         created: function(){
             this.readData();

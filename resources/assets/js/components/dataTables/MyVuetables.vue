@@ -20,6 +20,7 @@
             ></vuetable-pagination>
         </div>
     </div>
+
 </template>
 
 <script>
@@ -85,6 +86,10 @@
                 Vue.nextTick( () => this.$refs.vuetable.refresh())
                 console.log("masuk reset");
             },
+            onActions(action, data, index){
+                console.log(action + "," + data + "," + index);
+            },
+
         },
         mounted() {
             this.$events.$on('filter-set', eventData => this.onFilterSet(eventData))
