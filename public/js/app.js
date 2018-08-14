@@ -52051,7 +52051,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -52096,7 +52096,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     data: function data() {
         return {
             alertSuccess: false,
-            message: 'http://127.0.0.1:8000/api/v1/permissions',
+            url: 'http://127.0.0.1:8000/api/v1/permissions',
             permissionData: [],
             fields: [{
                 name: '__component:custom-actions',
@@ -52136,9 +52136,25 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             }, function (error) {
                 console.log(error.message);
             });
+        },
+        actionDataTables: function actionDataTables(action, data, index) {
+            switch (action) {
+                case 'view-item':
+                    console.log('masuk view');
+                    break;
+                case 'edit-item':
+                    console.log('masuk edit');
+                    break;
+                case 'delete-item':
+                    console.log('masuk delete');
+                    break;
+                default:
+                    break;
+            }
         }
     },
     mounted: function mounted() {
+        var _this2 = this;
 
         console.log(this.$router.params);
         if (!this.$router.params === undefined) {
@@ -52146,6 +52162,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             this.messages = this.$router.params.alertMessage;
         }
         console.log(this.alertSuccess + "," + this.messages);
+        this.$events.$on('itemAction', function (eventData) {
+            _this2.actionDataTables(eventData.action, eventData.data.id, eventData.index);
+        });
     },
 
     created: function created() {
@@ -52239,7 +52258,7 @@ exports = module.exports = __webpack_require__(3)(false);
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", ""]);
 
 // exports
 
@@ -52264,6 +52283,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_vue_events___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_vue_events__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_vue__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_vue__);
+//
 //
 //
 //
@@ -52357,6 +52377,9 @@ __WEBPACK_IMPORTED_MODULE_6_vue___default.a.component('filter-bar', __WEBPACK_IM
                 return _this2.$refs.vuetable.refresh();
             });
             console.log("masuk reset");
+        },
+        onActions: function onActions(action, data, index) {
+            console.log(action + "," + data + "," + index);
         }
     },
     mounted: function mounted() {
@@ -56137,7 +56160,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   },
   methods: {
     itemAction: function itemAction(action, data, index) {
-      console.log('custom-actions: ' + action, data.name, index);
+      this.$events.$emit('itemAction', { action: action, data: data, index: index });
     }
   }
 });
@@ -57407,7 +57430,7 @@ var render = function() {
     _vm._v(" "),
     _c(
       "div",
-      [_c("my-vuetables", { attrs: { url: _vm.message, field: _vm.fields } })],
+      [_c("my-vuetables", { attrs: { url: _vm.url, field: _vm.fields } })],
       1
     ),
     _vm._v(" "),
