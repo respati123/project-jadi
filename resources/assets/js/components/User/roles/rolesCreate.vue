@@ -68,12 +68,12 @@
 
     export default {
         name: "createUser",
+        store: ['rolesHasSelected'],
         data() {
             return {
 
                 multipleSelected: [],
                 roles: [],
-                rolesHasSelected:[],
 
             }
         },

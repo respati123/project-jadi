@@ -7,5 +7,6 @@ export default ({
         modifierAt: '',
         modifierBy: '',
         id: ''
-    }
+    },
+    rolesHasSelected: []
 })
