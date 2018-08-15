@@ -31,7 +31,11 @@ Route::group(['prefix'=>'permissions', 'as' => 'permissions.'], function(){
    Route::get('/', function(){
       return view('welcome');
    })->where('permission', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-permission', '[\/\w\.-]*')->name('edit');
    Route::get('/create', function(){
       return view('welcome');
    })->where('create-permission', '[\/\w\.-]*')->name('create');
 });
+

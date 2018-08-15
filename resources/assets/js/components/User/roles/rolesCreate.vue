@@ -25,13 +25,23 @@
                                     <p>tidak ada data permission</p>
                                     <router-link  :to="{name: 'createPermissions'}">Create Permissions</router-link>
                                 </div>
-                                <select v-else multiple="true" class="form-control" v-model="multipleSelected">
-                                    <option v-for="option in options"
-                                    :value="roles.name">
-                                        {{roles.name}}
+                                <select v-else multiple="true" class="form-control" @dblclick="sortBy" v-model="multipleSelected">
+                                    <option v-for="(role, key) in roles"
+                                    :value="role.id">
+                                        {{role.name}}
                                     </option>
                                 </select>
 
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-10 col-sm-offset-2" style="display: flex;">
+                                <div class="badge-theme" v-for="roleSelected in rolesHasSelected">
+                                    <p>{{ roleSelected.name }}</p>
+                                    <button type="button" class="close" aria-label="close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                         <div class="form-group">
@@ -54,13 +64,17 @@
 <script>
 
 
+    import axios from "axios";
+
     export default {
         name: "createUser",
         data() {
             return {
 
                 multipleSelected: [],
-                roles: []
+                roles: [],
+                rolesHasSelected:[],
+
             }
         },
         computed: {
@@ -74,7 +88,21 @@
             },
             btnBack: function(){
 
+            },
+            sortBy: function(e){
+               let item = {};
+               item["name"] = e.target.text;
+               item["value"] = e.target.value;
+                this.rolesHasSelected.push(item);
+               console.log(this.rolesHasSelected);
             }
+
+        },
+        mounted: function(){
+            axios.get('/api/v1/getAllPermissions/')
+                .then((response) => {
+                    this.roles = response.data.data;
+                });
         }
 
     }

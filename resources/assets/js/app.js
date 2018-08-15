@@ -8,16 +8,23 @@
 require('./bootstrap');
 import VueRouter from 'vue-router'
 import router from './routers/index'
+import VueStash from 'vue-stash'
+import store from './store'
+import axios from 'axios'
+
 
 
 
 window.Vue = require('vue');
 
 Vue.use(VueRouter);
-
+Vue.use(VueStash);
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({
     el: "#app",
+    data: {
+      store: store
+    },
     router,
 });

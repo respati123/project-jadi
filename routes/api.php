@@ -20,3 +20,14 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::group(['prefix' => '/v1', 'namespace' => 'Api\v1', 'as' => 'api.'], function(){
    Route::resource('permissions', 'PermissionsController', ['expect' => ['create','edit']]);
 });
+
+Route::group(['prefix' => '/v1', 'namespace' => 'Api\v1', 'as' => 'api.'], function(){
+    Route::resource('roles', 'RolesController', ['expect' => ['create','edit']]);
+    Route::get('/getAllPermissions', function(){
+        $permission = \App\Permission::all();
+        return response()->json([
+            'data' => $permission
+        ]);
+    });
+});
+

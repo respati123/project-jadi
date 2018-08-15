@@ -5,3 +5,26 @@
     width: 30%;
     z-index: 9999;
 }
+
+.badge-theme {
+    width: 13%;
+    margin: 5px;
+    padding: auto;
+    display: flex;
+    vertical-align: auto;
+    height: auto;
+    border-radius: 5px;
+    background: darkgrey;
+
+}
+
+.badge-theme p {
+    margin: auto;
+    align-content: center;
+    padding: 5px;
+    color: white;
+}
+
+.badge-theme button {
+    margin: auto;
+}
