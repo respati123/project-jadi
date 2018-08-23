@@ -8,13 +8,13 @@
                 </div>
                 <!-- /.box-header -->
                 <!-- form start -->
-                <form class="form-horizontal">
+                <form  @submit.prevent="addRoles" class="form-horizontal">
                     <div class="box-body">
                         <div class="form-group">
                             <label for="inputName" class="col-sm-2 control-label">Name Roles</label>
 
                             <div class="col-sm-10">
-                                <input class="form-control" v-model="roles.name" id="inputName" placeholder="roles" type="text">
+                                <input class="form-control" v-model="roleName.value" id="inputName" placeholder="roles" type="text">
                             </div>
                         </div>
 
@@ -26,8 +26,8 @@
                                     <router-link  :to="{name: 'createPermissions'}">Create Permissions</router-link>
                                 </div>
                                 <select v-else multiple="true" class="form-control" @dblclick="sortBy" v-model="multipleSelected">
-                                    <option v-for="(role, key) in roles"
-                                    :value="role.id">
+                                    <option v-for="(role, index) in roles"
+                                    :value="role.id" v-bind:key="index">
                                         {{role.name}}
                                     </option>
                                 </select>
@@ -36,18 +36,21 @@
                         </div>
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2" style="display: flex;">
-                                <div class="badge-theme" v-for="roleSelected in rolesHasSelected">
+                                <div class="badge-theme" v-for="(roleSelected, index) in rolesHasSelected" v-bind:key="index">
                                     <p>{{ roleSelected.name }}</p>
-                                    <button type="button" class="close" aria-label="close">
+                                    <button type="button" class="close"  v-on:click="removeList(index, roleSelected.name, roleSelected.value)" aria-label="close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                             </div>
+                            <pre>
+                                {{ this.rolesHasSelected }}
+                            </pre>
                         </div>
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
-                                <button class="btn btn-primary" v-bind:onclick="saveData">save</button>
-                                <button class="btn btn-warning" v-bind:onclick="btnBack">Back</button>
+                                <button class="btn btn-primary" type="submit">save</button>
+                                <button class="btn btn-warning" >Back</button>
                             </div>
                         </div>
                     </div>
@@ -68,13 +71,15 @@
 
     export default {
         name: "createUser",
-        store: ['rolesHasSelected'],
         data() {
             return {
 
                 multipleSelected: [],
                 roles: [],
-
+                roleName: {
+                    value: ''
+                },
+                rolesHasSelected:[]
             }
         },
         computed: {
@@ -83,18 +88,36 @@
             }
         },
         methods: {
-            saveData: function(){
-
-            },
-            btnBack: function(){
-
-            },
             sortBy: function(e){
-               let item = {};
-               item["name"] = e.target.text;
-               item["value"] = e.target.value;
-                this.rolesHasSelected.push(item);
-               console.log(this.rolesHasSelected);
+                let items = {};
+               items['name'] = e.target.text;
+               items['value'] = e.target.value;
+
+               this.rolesHasSelected.push(items);
+                this.roles.splice(e.target.index, 1);
+
+
+            },
+            removeList: function(index, name, value){
+                console.log(index + "," + name + "," + value);
+                this.roles.unshift({name: name, value: value});
+                this.rolesHasSelected.splice(index, 1)
+            },
+            addRoles: function(){
+
+                console.log('masuk add');
+                axios.post('/api/v1/roles/', {roles:this.rolesHasSelected,name:this.roleName} )
+                    .then((response) => {
+                        if(response.data.message === 'success'){
+                            this.$router.push({
+                                name: 'rolesIndex',
+                                messages: response.data.message
+                            });
+                        }
+                    }, (error) => {
+
+                    });
+
             }
 
         },

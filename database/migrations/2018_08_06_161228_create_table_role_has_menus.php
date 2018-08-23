@@ -13,7 +13,7 @@ class CreateTableRoleHasMenus extends Migration
      */
     public function up()
     {
-        Schema::create('role_has_menus', function (Blueprint $table) {
+        Schema::create('menu_role', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('role_id')->unsigned();
             $table->integer('menu_id')->unsigned();
