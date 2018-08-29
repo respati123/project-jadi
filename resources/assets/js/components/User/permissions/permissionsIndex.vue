@@ -12,8 +12,27 @@
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <strong>{{ messages === undefined ? '' : messages}}</strong> Indicates a successful or positive action.
         </div>
+        <div class="modal fade" id="modal-default" style="display: none;">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title">Default Modal</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body…</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
     </div>
-
 
 </template>
 
@@ -80,7 +99,11 @@
             actionDataTables(action, data, index){
                 switch (action) {
                     case 'view-item':
-                        console.log('masuk view');
+                        $('#modal-default').modal().show();
+                        axios.get('api/v1/permissions', data)
+                            .then((response) => {
+                               console.log(response.data);
+                            });
                         break;
                     case 'edit-item':
                         console.log('masuk edit');

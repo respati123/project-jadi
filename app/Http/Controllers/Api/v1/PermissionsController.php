@@ -39,4 +39,13 @@ class PermissionsController extends Controller
             'messages' => 'success'
         ], Response::HTTP_ACCEPTED);
     }
+
+    public function show($id){
+
+        $permissions = Permission::findOrFail($id);
+
+        return response()->json([
+            'data'=> $permissions
+        ], Response::HTTP_ACCEPTED);
+    }
 }
