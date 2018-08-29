@@ -2279,7 +2279,7 @@
 						}
 					}
 	
-					// Type is valid for all data points in the column - use this
+					// Types is valid for all data points in the column - use this
 					// type
 					if ( detectedType ) {
 						col.sType = detectedType;
@@ -14161,7 +14161,7 @@
 	
 	
 		/**
-		 * Type based plug-ins.
+		 * Types based plug-ins.
 		 *
 		 * Each column in DataTables has a type assigned to it, either by automatic
 		 * detection or by direct assignment using the `type` option for the column.
@@ -14172,7 +14172,7 @@
 		 */
 		type: {
 			/**
-			 * Type detection functions.
+			 * Types detection functions.
 			 *
 			 * The functions defined in this object are used to automatically detect
 			 * a column's type, making initialisation of DataTables super easy, even
@@ -14215,7 +14215,7 @@
 	
 	
 			/**
-			 * Type based search formatting.
+			 * Types based search formatting.
 			 *
 			 * The type based searching functions can be used to pre-format the
 			 * data to be search on. For example, it can be used to strip HTML
@@ -14254,7 +14254,7 @@
 	
 	
 			/**
-			 * Type based ordering.
+			 * Types based ordering.
 			 *
 			 * The column type tells DataTables what ordering to apply to the table
 			 * when a column is sorted upon. The order for each type that is defined,

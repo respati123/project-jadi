@@ -54,6 +54,85 @@ Route::group(['prefix' => 'listcustomer', 'as' => 'listcustomer.'], function(){
     })->where('create-list-customers', '[\/\w\.-]*')->name('create');
 });
 
+Route::group(['prefix' => 'loyalty', 'as' => 'loyalty.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-loyalty', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-list-loyalty', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-list-loyalty', '[\/\w\.-]*')->name('create');
+});
+
+Route::group(['prefix' => 'location', 'as' => 'location.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-location', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-list-location', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-list-location', '[\/\w\.-]*')->name('create');
+});
+Route::group(['prefix' => 'category', 'as' => 'category.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-category', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-list-category', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-list-category', '[\/\w\.-]*')->name('create');
+});
+Route::group(['prefix' => 'classes', 'as' => 'classes.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-classes', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-list-classes', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-list-classes', '[\/\w\.-]*')->name('create');
+});
+Route::group(['prefix' => 'building', 'as' => 'building.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-building', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-list-building', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-list-building', '[\/\w\.-]*')->name('create');
+});
+Route::group(['prefix' => 'vehicletypes', 'as' => 'vehicletypes.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-vehicle-types', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-vehicle-types', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-vehicle-types', '[\/\w\.-]*')->name('create');
+});
+Route::group(['prefix' => 'vehiclebrands', 'as' => 'vehiclebrands.'], function(){
+    Route::get('/', function(){
+        return view('welcome');
+    })->where('list-vehicle-brands', '[\/\w\.-]*')->name('index');
+    Route::get('/edit/{id}', function(){
+        return view('welcome');
+    })->where('edit-vehicle-brands', '[\/\w\.-]*')->name('edit');
+    Route::get('/create', function(){
+        return view('welcome');
+    })->where('create-vehicle-brands', '[\/\w\.-]*')->name('create');
+});
+
 Route::get('/delete', function(){
 
     $roles = \App\Role::find(20);
