@@ -3485,7 +3485,7 @@ jQuery.fn.extend({
 	on: function( types, selector, data, fn, /*INTERNAL*/ one ) {
 		var origFn, type;
 
-		// Types can be a map of types/handlers
+		// Brands can be a map of types/handlers
 		if ( typeof types === "object" ) {
 			// ( types-Object, selector, data )
 			if ( typeof selector !== "string" ) { // && selector != null

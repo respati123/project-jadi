@@ -24,6 +24,7 @@
         "vuetable-2": "^1.7.5"
     },
     "dependencies": {
-        "vue-multiselect": "^2.1.0"
+        "vue-multiselect": "^2.1.0",
+        "vue-stash": "^2.0.1-beta"
     }
 }

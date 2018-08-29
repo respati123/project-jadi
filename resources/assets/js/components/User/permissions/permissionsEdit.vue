@@ -21,7 +21,7 @@
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
                                 <button class="btn btn-primary" type="button" @click.prevent="updateData">save</button>
-                                <button class="btn btn-warning" type="button" :onclick="permissionBack">Back</button>
+                                <button class="btn btn-warning" type="button" @click.prevent="permissionBack">Back</button>
                             </div>
                         </div>
                     </div>
@@ -35,21 +35,16 @@
 </template>
 
 <script>
+    import axios from 'axios';
     export default {
-
         name: "permissionsEdit",
         mounted() {
-            let app = this;
-            let id = app.$route.params.id;
-            app.permissionId = id;
-            axios.get('api/v1/permissions' + id)
+            this.id = this.$route.params.id;
+            axios.get('/api/v1/permissions/' + this.id)
                 .then((response) => {
-                    console.log(response.data);
-                    app.permission = response.data;
-                }, (error) => {
-                    console.log(error.messages);
+                   this.permission.name = response.data.data.name;
+                   console.log(response.data.data.name);
                 });
-
 
         },
         data: function(){
@@ -57,12 +52,32 @@
                 permissionId: null,
                 permission: {
                     name: ''
-                }
+                },
+                id: null
+
             }
         },
+        methods: {
+            permissionBack: function(){
+                this.$router.push({
+                    name: 'indexPermissions',
+                })
+            },
+            updateData(){
 
-        methods: function(){
-
+                axios.put('/api/v1/permissions/' + this.id, this.permission)
+                    .then((response) => {
+                        this.$router.push({
+                            name: 'indexPermissions',
+                            params: {
+                                alertMessage: response.data.message,
+                                alertSuccess: true
+                            }
+                        })
+                    }, (error) => {
+                        console.log(error.message);
+                    });
+            }
         }
     }
 </script>

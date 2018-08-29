@@ -775,7 +775,7 @@ function Sizzle( selector, context, results, seed ) {
 						}
 					}
 
-				// Type selector
+				// Types selector
 				} else if ( match[2] ) {
 					push.apply( results, context.getElementsByTagName( selector ) );
 					return results;
@@ -4882,7 +4882,7 @@ function safeActiveElement() {
 function on( elem, types, selector, data, fn, one ) {
 	var origFn, type;
 
-	// Types can be a map of types/handlers
+	// Brands can be a map of types/handlers
 	if ( typeof types === "object" ) {
 
 		// ( types-Object, selector, data )

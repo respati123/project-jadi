@@ -67,7 +67,9 @@
                     });
             },
             permissionBack: function(){
-
+                this.$router.push({
+                    name: 'indexPermissions'
+                });
             }
         },
     }

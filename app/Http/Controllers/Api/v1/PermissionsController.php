@@ -45,7 +45,31 @@ class PermissionsController extends Controller
         $permissions = Permission::findOrFail($id);
 
         return response()->json([
-            'data'=> $permissions
-        ], Response::HTTP_ACCEPTED);
+            'data' => $permissions,
+        ]);
+    }
+
+    public function update(Request $request, $id){
+
+
+        $permission = Permission::findOrFail($id);
+        $permission->update([
+            'name' => $request->input('name')
+        ]);
+
+        return response()->json([
+            'message' => 'success'
+        ], Response::HTTP_OK);
+    }
+
+    public function destroy($id){
+        $permission = Permission::findOrFail($id);
+
+        $permission->delete();
+
+        return response()->json([
+            'messages' => 'success delete',
+
+        ], Response::HTTP_OK);
     }
 }

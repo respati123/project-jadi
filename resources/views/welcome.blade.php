@@ -7,29 +7,29 @@
     <title>AdminLTE 2 | Starter</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/font-awesome/css/font-awesome.min.css') }}">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="../bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/Ionicons/css/ionicons.min.css') }}">
     <!-- Theme style -->
-    <link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+    <link rel="stylesheet" href="{{ asset('/dist/css/AdminLTE.min.css') }}">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="{{ asset('/dist/css/skins/_all-skins.min.css') }}">
     <!-- Morris chart -->
-    <link rel="stylesheet" href="../bower_components/morris.js/morris.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/morris.js/morris.css') }}">
     <!-- jvectormap -->
-    <link rel="stylesheet" href="../bower_components/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/jvectormap/jquery-jvectormap.css') }}">
     <!-- Date Picker -->
-    <link rel="stylesheet" href="../bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css') }}">
     <!-- Daterange picker -->
-    <link rel="stylesheet" href="../bower_components/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="{{ asset('/bower_components/bootstrap-daterangepicker/daterangepicker.css') }}">
     <!-- bootstrap wysihtml5 - text editor -->
-    <link rel="stylesheet" href="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+    <link rel="stylesheet" href="{{ asset('/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css" media="screen" title="no title" charset="utf-8">
 
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="{{ asset('/css/styles.css') }}">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -50,8 +50,8 @@
     <header class="main-header">
 
         <a href="index2.html" class="logo">
-            <span class="logo-mini"><b>A</b>LT</span>
-            <span class="logo-lg"><b>Admin</b>LTE</span>
+            <span class="logo-mini"><b>MIKA</b></span>
+            <span class="logo-lg"><b>MIKA</b>parking</span>
         </a>
 
         <nav class="navbar navbar-static-top" role="navigation">
@@ -60,80 +60,6 @@
             </a>
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown messages-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-envelope-o"></i>
-                            <span class="label label-success">4</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="header">You have 4 messages</li>
-                            <li>
-                                <ul class="menu">
-                                    <a href="#">
-                                        <div class="pull-left">
-                                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                                        </div>
-                                        <h4>
-                                            Support Team
-                                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                                        </h4>
-                                        <p>Why not buy a new awesome theme?</p>
-                                    </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="footer"><a href="#">See All Messages</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown notifications-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-bell-o"></i>
-                            <span class="label label-warning">10</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="header">You have 10 notifications</li>
-                            <li>
-                                <ul class="menu">
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="footer"><a href="#">View all</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown tasks-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <i class="fa fa-flag-o"></i>
-                            <span class="label label-danger">9</span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="header">You have 9 tasks</li>
-                            <li>
-                                <ul class="menu">
-                                    <li>
-                                        <a href="#">
-                                            <h3>
-                                                Design some buttons
-                                                <small class="pull-right">20%</small>
-                                            </h3>
-                                            <div class="progress xs">
-                                                <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
-                                                     aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                                                    <span class="sr-only">20% Complete</span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="footer">
-                                <a href="#">View all tasks</a>
-                            </li>
-                        </ul>
-                    </li>
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                             <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
@@ -205,7 +131,42 @@
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="header">HEADER</li>
                 <li class="treeview">
-                    <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+                    <a href="#"><i class="fa fa-link"></i> <span>Customers</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{ route('listcustomer.index') }}">List Customers</a></li>
+                        <li><a href="{{ route('loyalty.index') }}">Loyalty Customers</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Parking</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{ route('location.index') }}">Locations</a></li>
+                        <li><a href="{{ route('category.index') }}">Categories</a></li>
+                        <li><a href="{{ route('classes.index') }}">Classes</a></li>
+                        <li><a href="{{ route('building.index') }}">Buildings</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i><span>Vehicles</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="{{ route('vehicletypes.index') }}">Vehicle Types</a></li>
+                        <li><a href="{{ route('vehiclebrands.index') }}">Vehicle Brands</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i> <span>Users</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
@@ -221,29 +182,12 @@
     </aside>
 
     <div class="content-wrapper">
-        <section class="content-header">
-            <h1>
-                Page Header
-                <small>Optional description</small>
-            </h1>
-            <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                <li class="active">Here</li>
-            </ol>
-        </section>
-
         <section class="content container-fluid" id="app">
             <router-view name="componentsIndex"></router-view>
-            <router-view></router-view>
+            <router-view :key="$route.fullPath"></router-view>
         </section>
     </div>
 
-    <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-            Anything you want
-        </div>
-        <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
-    </footer>
 
     <aside class="control-sidebar control-sidebar-dark">
         <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
@@ -312,23 +256,25 @@
 </div>
 
 
-<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
-<script src="/js/custome.js"></script>
-<script src="/js/app.js"></script>
+<script src="{{ asset('/bower_components/jquery/dist/jquery.min.js') }}"></script>
+<script src="{{ asset('/js/custome.js') }}"></script>
+<script src="{{ asset('/js/app.js') }}"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js" charset="utf-8"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="{{ asset('/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <!-- DataTables -->
-<script src="../../bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
-<script src="../../bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="{{ asset('/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
+<script src="{{ asset('/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
 <!-- SlimScroll -->
-<script src="../../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="{{ asset('/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
 <!-- FastClick -->
-<script src="../../bower_components/fastclick/lib/fastclick.js"></script>
+<script src="{{ asset('/bower_components/fastclick/lib/fastclick.js') }}"></script>
 <!-- AdminLTE App -->
-<script src="../../dist/js/adminlte.min.js"></script>
+<script src="{{ asset('/dist/js/adminlte.min.js') }}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../dist/js/demo.js"></script>
+<script src="{{ asset('/dist/js/demo.js') }}"></script>
+
 
 <script>
 
