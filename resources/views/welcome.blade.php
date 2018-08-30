@@ -92,7 +92,7 @@
                                     <a href="#" class="btn btn-default btn-flat">Profile</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                    <a href="{{ url('logout') }}" class="btn btn-default btn-flat">Sign out</a>
                                 </div>
                             </li>
                         </ul>
@@ -130,6 +130,7 @@
 
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="header">HEADER</li>
+                <li><a href="{{ route('dashboard') }}"><i class="fa fa-dashboard text-aqua"></i> <span>Dashboard</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-link"></i> <span>Customers</span>
                         <span class="pull-right-container">
@@ -163,6 +164,29 @@
                     <ul class="treeview-menu">
                         <li><a href="{{ route('vehicletypes.index') }}">Vehicle Types</a></li>
                         <li><a href="{{ route('vehiclebrands.index') }}">Vehicle Brands</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i><span>Financial</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#">Currencies</a></li>
+                        <li><a href="#">Tax</a></li>
+                        <li><a href="#">Tariff</a></li>
+                    </ul>
+                </li>
+                <li class="treeview">
+                    <a href="#"><i class="fa fa-link"></i><span>User Accounts</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="#">Employees</a></li>
+                        <li><a href="#">Time Shift</a></li>
                     </ul>
                 </li>
                 <li class="treeview">

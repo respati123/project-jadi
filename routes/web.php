@@ -13,9 +13,28 @@
 
 use Illuminate\Support\Facades\Route;
 
+Route::get('/login', function(){
+   return view('login');
+})->name('login');
+
+Route::get('/login/create', function(\Illuminate\Http\Request $request){
+    $request->session()->put('is_login','login');
+    return redirect("/");
+})->name('login.create');
+
+Route::get('/logout', function(\Illuminate\Http\Request $request){
+    $request->session()->forget('is_login');
+    return redirect('/login');
+});
+
+Route::get('/dashboard', function (){
+   return view('welcome');
+})->where('dashboard', '[\/\w\.-]*')->name('dashboard');
+
+
 Route::get('/', function () {
     return view('welcome');
-});
+})->middleware('sessionLogin');
 
 Route::group(['prefix'=>'roles', 'as' => 'roles.'], function(){
     Route::get('/', function(){

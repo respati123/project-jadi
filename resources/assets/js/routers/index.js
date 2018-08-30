@@ -46,6 +46,9 @@ import indexVehicleBrands from  '../components/Vehicles/Brands/indexVehiclesBran
 import createVehicleBrands from  '../components/Vehicles/Brands/createVehiclesBrands.vue'
 import editVehicleBrands from '../components/Vehicles/Brands/editVehiclesBrands.vue'
 
+//dashboard
+import dashboardIndex from '../components/Dashboard/Dashboard.vue'
+
 const router = new VueRouter({
     routes: [
         //roles
@@ -97,6 +100,9 @@ const router = new VueRouter({
         {path: '/vehiclebrands/create', component: createVehicleBrands, name: 'createVehicleBrands'},
         {path: '/vehiclebrands/edit/:id', component: editVehicleBrands, name: 'editVehicleBrands'},
 
+
+        //dashboard
+        {path: '/dashboard', component: dashboardIndex, name: 'dashboardIndex'}
     ],
     mode: 'history'
 });
