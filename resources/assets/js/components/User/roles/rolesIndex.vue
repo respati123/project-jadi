@@ -21,6 +21,7 @@
                 </tr>
                 </thead>
                 <tbody>
+<<<<<<< HEAD
                     <tr v-for="rlData in roleData ">
                         <td>{{ rlData.name}}</td>
                         <td>
@@ -35,6 +36,24 @@
                         <td>
                             <router-link :to="{ name: 'editRoles', params:{id:rlData.id}}">Edit <i class="fa fa-pencil"></i></router-link>
                             <button type="button">Delete <i class="fa fa-times"></i></button>
+=======
+                    <tr v-for="dt in dataTable">
+                        <td>{{ dt.name }}</td>
+                        <td>
+                            <div class="col-md-12">
+                                <span class="badge badge-secondary" v-for="perm in dt.permission">
+                                    {{ perm.name }}
+                                </span>
+                            </div>
+                        </td>
+                        <td>{{ dt.created_by }}</td>
+                        <td>{{ dt.created_at }}</td>
+                        <td>{{ dt.modifier_by }}</td>
+                        <td>{{ dt.modifier_at }}</td>
+                        <td>
+                            <router-link :to="{ name: 'editRoles',  params: { id : dt.id }}" class="btn btn-warning">Edit <i class="fa fa-pencil"></i></router-link>
+                            <button type="button" class="btn btn-danger">Delete <i class="fa fa-trash"></i></button>
+>>>>>>> master
                         </td>
                     </tr>
                 </tbody>
@@ -51,8 +70,12 @@
         name: "userIndex",
         data(){
             return {
+<<<<<<< HEAD
                 roleData: [],
                 permissionValue: []
+=======
+                dataTable: []
+>>>>>>> master
             }
         },
         methods: {
@@ -60,7 +83,11 @@
 
               axios.get('/api/v1/roles/')
                   .then((response) => {
+<<<<<<< HEAD
                       this.roleData = response.data.data;
+=======
+                     this.dataTable = response.data.data;
+>>>>>>> master
                   }, (error) => {
 
                   });
