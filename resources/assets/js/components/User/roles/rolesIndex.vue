@@ -20,7 +20,24 @@
                 </tr>
                 </thead>
                 <tbody>
-
+                    <tr v-for="dt in dataTable">
+                        <td>{{ dt.name }}</td>
+                        <td>
+                            <div class="col-md-12">
+                                <span class="badge badge-secondary" v-for="perm in dt.permission">
+                                    {{ perm.name }}
+                                </span>
+                            </div>
+                        </td>
+                        <td>{{ dt.created_by }}</td>
+                        <td>{{ dt.created_at }}</td>
+                        <td>{{ dt.modifier_by }}</td>
+                        <td>{{ dt.modifier_at }}</td>
+                        <td>
+                            <router-link :to="{ name: 'editRoles',  params: { id : dt.id }}" class="btn btn-warning">Edit <i class="fa fa-pencil"></i></router-link>
+                            <button type="button" class="btn btn-danger">Delete <i class="fa fa-trash"></i></button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -35,7 +52,7 @@
         name: "userIndex",
         data(){
             return {
-
+                dataTable: []
             }
         },
         methods: {
@@ -43,7 +60,7 @@
 
               axios.get('/api/v1/roles/')
                   .then((response) => {
-                     console.log(response.data.data);
+                     this.dataTable = response.data.data;
                   }, (error) => {
 
                   });

@@ -41,7 +41,7 @@ class RolesController extends Controller
 
     public function index(){
 
-        $roles = Role::all(15);
+        $roles = Role::paginate(15);
         $data = $roles->load('Permission');
 
         return response()->json([
@@ -55,11 +55,34 @@ class RolesController extends Controller
 
         $data = $roles->load('Permission');
 
-        return response()->json(['data' => $data]);
+        return response()->json(['data' => $data], Response::HTTP_OK);
     }
 
     public function update(Request $request, $id){
 
+        $dataRole = 0;
+        $dataName = 0;
+        $dataTemp = $request->all();
+        for($i = 0; $i < count($dataTemp); $i++){
+            $dataRole = $dataTemp['role'];
+            $dataName = $dataTemp['name'];
+        }
 
+        $this->inputRole($dataRole);
+        $this->inputName($dataName);
+
+
+//        $dataSync = array();
+//        foreach($request->all() as $key => $req){
+//            $dataSync[$key] = $req['value'];
+//        }
+//
+//        $post = Role::find($id);
+//        $post->update([
+//            'name' => $req
+//        ])
+//        $post->permission->sync($dataSync);
+//
+//        return response()->json('success', Response::HTTP_OK);
     }
 }
