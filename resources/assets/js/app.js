@@ -13,12 +13,11 @@ import store from './store'
 import axios from 'axios'
 
 
-
-
 window.Vue = require('vue');
 
 Vue.use(VueRouter);
 Vue.use(VueStash);
+
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
 const app = new Vue({

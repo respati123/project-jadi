@@ -31,4 +31,6 @@ class PermissionsController extends Controller
         $permission = Permission::all();
         return response()->json(['data' => $permission], 200);
     }
+
+
 }

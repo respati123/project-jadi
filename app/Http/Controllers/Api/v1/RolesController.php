@@ -17,31 +17,31 @@ class RolesController extends Controller
         $roleName       = $request->input('name');
 
         $roleValue = array();
-      for($i = 0; $i < count($rolesRequest); $i++){
-          $temp = $rolesRequest[$i];
-          $roleValue[$i] = $temp['value'];
-      }
+          for($i = 0; $i < count($rolesRequest); $i++){
+              $temp = $rolesRequest[$i];
+              $roleValue[$i] = $temp['value'];
+          }
 
-      $roles = new Role();
-      $roles->create([
-          'name' => $roleName['value'],
-          'created_at' => '2018-08-10',
-          'created_by' => 'respati',
-          'modifier_at' => '2018-08-11',
-          'modifier_by' => 'respati',
+          $roles = new Role();
+          $roles->create([
+              'name' => $roleName['value'],
+              'created_at' => '2018-08-10',
+              'created_by' => 'respati',
+              'modifier_at' => '2018-08-11',
+              'modifier_by' => 'respati',
 
-      ])->permission()->attach($roleValue);
+          ])->permission()->attach($roleValue);
 
-      return response()->json([
-          'message' => 'success',
-          'data'    => $roles->permission()->get()
-      ]);
+          return response()->json([
+              'message' => 'success',
+              'data'    => $roles->permission()->get()
+          ]);
 
     }
 
     public function index(){
 
-        $roles = Role::all(15);
+        $roles = Role::paginate(15);
         $data = $roles->load('Permission');
 
         return response()->json([

@@ -16,11 +16,27 @@
                     <th>Created At</th>
                     <th>Modifier By</th>
                     <th>Modifier At</th>
+                    <th>Execute</th>
 
                 </tr>
                 </thead>
                 <tbody>
-
+                    <tr v-for="rlData in roleData ">
+                        <td>{{ rlData.name}}</td>
+                        <td>
+                            <p v-for="perm in rlData.permission">
+                                {{ perm.name }}
+                            </p>
+                        </td>
+                        <td>{{ rlData.created_by}}</td>
+                        <td>{{ rlData.created_at}}</td>
+                        <td>{{ rlData.modifier_by}}</td>
+                        <td>{{ rlData.modifier_at}}</td>
+                        <td>
+                            <router-link :to="{ name: 'editRoles', params:{id:rlData.id}}">Edit <i class="fa fa-pencil"></i></router-link>
+                            <button type="button">Delete <i class="fa fa-times"></i></button>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
@@ -35,7 +51,8 @@
         name: "userIndex",
         data(){
             return {
-
+                roleData: [],
+                permissionValue: []
             }
         },
         methods: {
@@ -43,7 +60,7 @@
 
               axios.get('/api/v1/roles/')
                   .then((response) => {
-                     console.log(response.data.data);
+                      this.roleData = response.data.data;
                   }, (error) => {
 
                   });

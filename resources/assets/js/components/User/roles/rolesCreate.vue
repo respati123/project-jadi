@@ -50,7 +50,7 @@
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
                                 <button class="btn btn-primary" type="submit">save</button>
-                                <button class="btn btn-warning" >Back</button>
+                                <button class="btn btn-warning" v-on:click="roleBack">Back</button>
                             </div>
                         </div>
                     </div>
@@ -106,7 +106,7 @@
             addRoles: function(){
 
                 console.log('masuk add');
-                axios.post('/api/v1/roles/', {roles:this.rolesHasSelected,name:this.roleName} )
+                axios.post('/api/v1/roles/', {roles:this.rolesHasSelected, name:this.roleName} )
                     .then((response) => {
                         if(response.data.message === 'success'){
                             this.$router.push({
@@ -118,6 +118,11 @@
 
                     });
 
+            },
+            roleBack: function(){
+                this.$router.push({
+                    name: 'rolesIndex'
+                });
             }
 
         },

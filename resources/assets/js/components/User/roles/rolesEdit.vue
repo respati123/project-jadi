@@ -61,39 +61,49 @@
             }
         },
         mounted() {
+
             axios.get('/api/v1/getAllPermissions/')
                 .then((response) => {
-                    this.roles = response.data.data;
+
+                    let dataRole = response.data.data;
+                    console.log(dataRole);
+                     for (let i = 0; i < dataRole.length; i++){
+                         let name = dataRole[i].name;
+                         let id = dataRole[i].id;
+                         this.roles.push({name: name, id: id});
+                     }
+
+                    axios.get('/api/v1/roles/' + this.$route.params.id)
+                        .then((response) => {
+                            console.log(response.data.data);
+                            this.roleName = {name: response.data.data.name, id: response.data.data.id}
+                            this.rolesHasSelected = response.data.data.permission;
+                            this.rolesHasSelected.forEach(function(item, index){
+                                console.log(item.name);
+                            });
+                        }, (error) => {
+                            console.log(error.message)
+                        });
                 });
 
-            axios.get('/api/v1/roles/'+20)
-                .then((response) => {
-                    console.log(response.data.data.name);
-                    this.roleName = {name: response.data.data.name, id: response.data.data.id}
-                    this.rolesHasSelected = response.data.data.permission;
-                }, (error) => {
-                    console.log(error.message)
-                });
 
 
             if(this.roleName !== null){
                 console.log("masuk")
             }
 
-
-
         },
-
         methods: {
             sortBy: function() {
 
-            }
+            },
+
+
         },
-       watch: {
+       computed: {
            isEmpty: function(){
                return this.roles.length === 0;
            },
-
        }
 
     }

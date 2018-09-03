@@ -21,7 +21,7 @@
                         <div class="form-group">
                             <div class="col-sm-10 col-sm-offset-2">
                                 <button class="btn btn-primary" type="submit">save</button>
-                                <button class="btn btn-warning" type="button" :onclick="permissionBack">Back</button>
+                                <button class="btn btn-warning" type="button" v-on:click="permissionBack">Back</button>
                             </div>
                         </div>
                     </div>

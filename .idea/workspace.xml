@@ -2,20 +2,122 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="293fceeb-f7ef-498a-b61e-f67b4d241384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project-jadi.zip" beforeDir="false" afterPath="$PROJECT_DIR$/project-jadi.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/assets/js/routers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/assets/js/routers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/canvasjs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.canvasjs.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/BarChart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/DougnutChart.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/LineChart.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-jadi.iml" afterPath="$PROJECT_DIR$/.idea/project-jadi.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/acorn" afterPath="$PROJECT_DIR$/node_modules/.bin/acorn" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/ansi-html" afterPath="$PROJECT_DIR$/node_modules/.bin/ansi-html" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/atob" afterPath="$PROJECT_DIR$/node_modules/.bin/atob" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" afterPath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babylon" afterPath="$PROJECT_DIR$/node_modules/.bin/babylon" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/bin-version-check" afterPath="$PROJECT_DIR$/node_modules/.bin/bin-version-check" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/color-support" afterPath="$PROJECT_DIR$/node_modules/.bin/color-support" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" afterPath="$PROJECT_DIR$/node_modules/.bin/cross-env-shell" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cssesc" afterPath="$PROJECT_DIR$/node_modules/.bin/cssesc" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/csso" afterPath="$PROJECT_DIR$/node_modules/.bin/csso" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/errno" afterPath="$PROJECT_DIR$/node_modules/.bin/errno" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/node_modules/.bin/esparse" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/node_modules/.bin/esvalidate" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/executable" afterPath="$PROJECT_DIR$/node_modules/.bin/executable" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/find-versions" afterPath="$PROJECT_DIR$/node_modules/.bin/find-versions" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/gifsicle" afterPath="$PROJECT_DIR$/node_modules/.bin/gifsicle" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/he" afterPath="$PROJECT_DIR$/node_modules/.bin/he" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/html-minifier" afterPath="$PROJECT_DIR$/node_modules/.bin/html-minifier" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" afterPath="$PROJECT_DIR$/node_modules/.bin/import-local-fixture" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-install" afterPath="$PROJECT_DIR$/node_modules/.bin/in-install" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/in-publish" afterPath="$PROJECT_DIR$/node_modules/.bin/in-publish" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/internal-ip" afterPath="$PROJECT_DIR$/node_modules/.bin/internal-ip" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/js-yaml" afterPath="$PROJECT_DIR$/node_modules/.bin/js-yaml" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jsesc" afterPath="$PROJECT_DIR$/node_modules/.bin/jsesc" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/json5" afterPath="$PROJECT_DIR$/node_modules/.bin/json5" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/loose-envify" afterPath="$PROJECT_DIR$/node_modules/.bin/loose-envify" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/lpad-align" afterPath="$PROJECT_DIR$/node_modules/.bin/lpad-align" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/miller-rabin" afterPath="$PROJECT_DIR$/node_modules/.bin/miller-rabin" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/.bin/mime" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mozjpeg" afterPath="$PROJECT_DIR$/node_modules/.bin/mozjpeg" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/multicast-dns" afterPath="$PROJECT_DIR$/node_modules/.bin/multicast-dns" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-gyp" afterPath="$PROJECT_DIR$/node_modules/.bin/node-gyp" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-install" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-install" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/not-in-publish" afterPath="$PROJECT_DIR$/node_modules/.bin/not-in-publish" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/optipng" afterPath="$PROJECT_DIR$/node_modules/.bin/optipng" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/pngquant" afterPath="$PROJECT_DIR$/node_modules/.bin/pngquant" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/prettier" afterPath="$PROJECT_DIR$/node_modules/.bin/prettier" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rc" afterPath="$PROJECT_DIR$/node_modules/.bin/rc" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/regjsparser" afterPath="$PROJECT_DIR$/node_modules/.bin/regjsparser" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sassgraph" afterPath="$PROJECT_DIR$/node_modules/.bin/sassgraph" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-bunzip" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/seek-table" afterPath="$PROJECT_DIR$/node_modules/.bin/seek-table" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sha.js" afterPath="$PROJECT_DIR$/node_modules/.bin/sha.js" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-verify" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-dirs" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-dirs" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/svgo" afterPath="$PROJECT_DIR$/node_modules/.bin/svgo" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" afterPath="$PROJECT_DIR$/node_modules/.bin/webpack-dev-server" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/which" afterPath="$PROJECT_DIR$/node_modules/.bin/which" />
+      <change beforePath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/.bin/acorn" afterPath="$PROJECT_DIR$/node_modules/acorn-dynamic-import/node_modules/.bin/acorn" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/babel-preset-env/node_modules/.bin/browserslist" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/bin-version-check/node_modules/.bin/semver" />
+      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/caniuse-api/node_modules/.bin/browserslist" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esparse" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/esvalidate" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/js-yaml" afterPath="$PROJECT_DIR$/node_modules/cosmiconfig/node_modules/.bin/js-yaml" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssnano/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/cssnano/node_modules/.bin/browserslist" />
+      <change beforePath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/html-minifier/node_modules/.bin/uglifyjs" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esparse" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/esvalidate" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/js-yaml" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/js-yaml" />
+      <change beforePath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/svgo" afterPath="$PROJECT_DIR$/node_modules/imagemin-svgo/node_modules/.bin/svgo" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/node-gyp/node_modules/.bin/semver" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/postcss-merge-rules/node_modules/.bin/browserslist" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esparse" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esparse" />
+      <change beforePath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esvalidate" afterPath="$PROJECT_DIR$/node_modules/recast/node_modules/.bin/esvalidate" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/.bin/jsesc" afterPath="$PROJECT_DIR$/node_modules/regjsparser/node_modules/.bin/jsesc" />
+      <change beforePath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/uglifyjs-webpack-plugin/node_modules/.bin/uglifyjs" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" afterPath="$PROJECT_DIR$/node_modules/webpack-dev-middleware/node_modules/.bin/mime" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/project-jadi.zip" afterPath="$PROJECT_DIR$/project-jadi.zip" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" afterPath="$PROJECT_DIR$/public/css/app.css" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" afterPath="$PROJECT_DIR$/public/mix-manifest.json" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/app.js" afterPath="$PROJECT_DIR$/resources/assets/js/app.js" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue" />
+      <change beforePath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,96 +361,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="rolesCreate.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+              <folding>
+                <element signature="e#2407#2414#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rolesIndex.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RolesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <element signature="e#485#575#0" expanded="true" />
-                <element signature="e#776#857#0" expanded="true" />
-                <element signature="e#1291#1369#0" expanded="true" />
-                <element signature="e#1787#1863#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="88">
+              <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="69" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Brands/editVehiclesBrands.vue">
+      <file leaf-file-name="rolesEdit.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="64">
+              <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomersIndex.vue">
+      <file leaf-file-name="PermissionsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="218">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <file leaf-file-name="PermissionsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="132" column="112" selection-start-line="132" selection-start-column="112" selection-end-line="132" selection-end-column="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-176">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/SessionLoginMiddleware.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="57" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="32" selection-start-line="32" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="-31">
+              <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -358,9 +438,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -378,17 +458,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Role.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_08_06_160838_create_table_role_has_permissions.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_08_06_161228_create_table_role_has_menus.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue" />
-        <option value="$PROJECT_DIR$/app/Permission.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/database/seeds/inputDataPermissions.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCostumerIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomerIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomersCreate.vue" />
@@ -425,10 +494,21 @@
         <option value="$PROJECT_DIR$/public/css/signin.css" />
         <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
-        <option value="$PROJECT_DIR$/resources/assets/js/routers/index.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/Dashboard/DougnutChart.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/Dashboard/LineChart.js" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/Dashboard/BarChart.js" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue" />
       </list>
     </option>
   </component>
@@ -465,7 +545,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
       <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
@@ -549,7 +629,17 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -558,144 +648,149 @@
         <subPane>
           <expand>
             <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="v1" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Middleware" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Api" type="462c0819:PsiDirectoryNode" />
-              <item name="v1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="parkir-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="parkir-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="routers" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="project-jadi" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="permissions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="User" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="roles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="routers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="project-jadi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project-jadi" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../first" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -704,17 +799,17 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2018.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Development\Website\project-jadi3\project-jadi\resources\views" />
-      <recent name="D:\Development\Website\project-jadi3\project-jadi\public\css" />
-      <recent name="D:\Development\Website\project-jadi3\project-jadi" />
-      <recent name="D:\Development\Website\project-jadi3\project-jadi\app\Http\Controllers\Api\v1" />
-      <recent name="D:\Development\Website\project-jadi3\project-jadi\routes" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Development\Website\project-jadi3\project-jadi\app\Http\Controllers\Api\v1" />
       <recent name="D:\Belajar\Website Fundamental\Laravel\project-jadi\resources\assets\js\components\User" />
       <recent name="$PROJECT_DIR$/resources/assets/js/components/users" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data tyo\Project\project-jadi\public\js" />
+      <recent name="D:\Development\Website\project-jadi3\project-jadi\resources\views" />
+      <recent name="D:\Development\Website\project-jadi3\project-jadi\public\css" />
+      <recent name="D:\Development\Website\project-jadi3\project-jadi" />
+      <recent name="D:\Development\Website\project-jadi3\project-jadi\app\Http\Controllers\Api\v1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -728,6 +823,9 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -759,60 +857,38 @@
       <workItem from="1535537975873" duration="880000" />
       <workItem from="1535596317729" duration="4828000" />
       <workItem from="1535611987763" duration="2400000" />
+      <workItem from="1535620186562" duration="679000" />
+      <workItem from="1535621367147" duration="13228000" />
+      <workItem from="1535724404120" duration="16677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153403000" />
+    <option name="totallyTimeSpent" value="183987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32419354" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32903227" />
-      <window_info anchor="bottom" id="TypeScript" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27758622" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32419354" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.38225806" />
-      <window_info anchor="bottom" id="TypeScript" order="12" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -820,221 +896,127 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2159">
-          <caret line="127" column="19" selection-start-line="124" selection-start-column="11" selection-end-line="127" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Permission.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/inputDataPermissions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_06_160609_create_permissions_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/dataTables/MyVuetables.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-603">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsEdit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-901">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomersEdit.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="51" column="69" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsIndex.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/store/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/loyalty-customers/createLoyalty.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="47" column="123" selection-start-line="47" selection-start-column="123" selection-end-line="47" selection-end-column="123" />
+          <caret line="47" column="123" lean-forward="false" selection-start-line="47" selection-start-column="123" selection-end-line="47" selection-end-column="123" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomersCreate.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="36" />
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/loyalty-customers/editLoyalty.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Location/editLocation.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Location/createLocation.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="33" column="10" selection-start-line="1" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
+          <caret line="33" column="10" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="33" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/bower_components/jquery-sparkline/src/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Location/indexLocation.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Categories/editCategory.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="99" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
+          <caret line="14" column="99" lean-forward="false" selection-start-line="14" selection-start-column="99" selection-end-line="14" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Categories/createCategory.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="79" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="99" />
+          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Classes/createClasses.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
-          <caret line="42" column="9" selection-start-line="31" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
+          <caret line="42" column="9" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="42" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Classes/editClasses.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <caret line="32" column="25" lean-forward="false" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Building/createBuilding.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Building/editBuilding.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/loyalty-customers/indexLoyalty.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Categories/indexCategory.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1048,56 +1030,56 @@
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Parking/Classes/indexClasses.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Types/editVehiclesTypes.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Types/createVehiclesTypes.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Brands/indexVehiclesBrands.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+          <caret line="5" column="95" lean-forward="false" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Types/indexVehiclesTypes.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="30" column="38" selection-start-line="20" selection-start-column="31" selection-end-line="30" selection-end-column="38" />
+          <caret line="30" column="38" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="30" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Brands/createVehiclesBrands.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="28" column="11" selection-end-line="38" selection-end-column="8" />
+          <caret line="28" column="11" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/dist/css/alt/AdminLTE-without-plugins.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="4829" selection-start-line="6" selection-start-column="4829" selection-end-line="6" selection-end-column="4829" />
+          <caret line="6" column="4829" lean-forward="false" selection-start-line="6" selection-start-column="4829" selection-end-line="6" selection-end-column="4829" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1111,77 +1093,224 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Vehicles/Brands/editVehiclesBrands.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="356">
+          <caret line="32" column="19" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Customers/list-costumers/listCustomersIndex.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="78" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="50" column="78" lean-forward="false" selection-start-line="50" selection-start-column="78" selection-end-line="50" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/SessionLoginMiddleware.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="57" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="57" />
+          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <caret line="18" column="55" lean-forward="false" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="132" column="112" selection-start-line="132" selection-start-column="112" selection-end-line="132" selection-end-column="112" />
+        <state relative-caret-position="526">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
+    <entry file="file://$PROJECT_DIR$/public/js/jquery.canvasjs.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#485#575#0" expanded="true" />
-            <element signature="e#776#857#0" expanded="true" />
-            <element signature="e#1291#1369#0" expanded="true" />
-            <element signature="e#1787#1863#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Dashboard/DougnutChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Dashboard/LineChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Dashboard/BarChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/components/Dashboard/Dashboard.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        <state relative-caret-position="68">
+          <caret line="156" column="9" lean-forward="false" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#7152#7190#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#248#282#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="302" column="99" lean-forward="false" selection-start-line="302" selection-start-column="99" selection-end-line="302" selection-end-column="99" />
+          <folding>
+            <marker date="1535691155508" expanded="true" signature="303:317" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="357:421" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="487:553" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="615:673" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="738:775" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="948:993" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1059:1108" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1172:1233" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1298:1385" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1455:1529" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1616:1684" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="1882:1908" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="4925:4940" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="6415:6435" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="6908:6937" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="7004:7028" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="7500:7525" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="7587:7612" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="7675:7699" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="7759:7784" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="8248:8277" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="8343:8373" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="9992:10014" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="10072:10100" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13257:13311" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13341:13366" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13395:13416" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13585:13648" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13698:13744" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13792:13847" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13876:13911" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13940:13967" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="13997:14068" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="14097:14174" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="14223:14294" ph="..." />
+            <marker date="1535691155508" expanded="true" signature="14323:14381" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PermissionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/PermissionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-31">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/permissions/permissionsCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="23" column="104" lean-forward="false" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/v1/RolesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/routers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="60" selection-end-line="56" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesIndex.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="35" column="64" lean-forward="false" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesCreate.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="86" column="39" lean-forward="false" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+          <folding>
+            <element signature="e#2407#2414#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/User/roles/rolesEdit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="64" column="12" lean-forward="false" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>

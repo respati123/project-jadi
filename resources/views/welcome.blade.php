@@ -281,23 +281,31 @@
 
 
 <script src="{{ asset('/bower_components/jquery/dist/jquery.min.js') }}"></script>
+
 <script src="{{ asset('/js/custome.js') }}"></script>
 <script src="{{ asset('/js/app.js') }}"></script>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js" charset="utf-8"></script>
 <!-- Bootstrap 3.3.7 -->
 <script src="{{ asset('/bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
 <!-- DataTables -->
+
+<script src="{{ asset('/bower_components/chart.js/Chart.js') }}"></script>
+<!-- FastClick -->
+<script src="{{ asset('/bower_components/fastclick/lib/fastclick.js') }}"></script>
+<script src="{{ asset('/dist/js/adminlte.min.js') }}"></script>
+<script src="{{ asset('/dist/js/demo.js') }}"></script>
+
 <script src="{{ asset('/bower_components/datatables.net/js/jquery.dataTables.min.js') }}"></script>
 <script src="{{ asset('/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js') }}"></script>
 <!-- SlimScroll -->
 <script src="{{ asset('/bower_components/jquery-slimscroll/jquery.slimscroll.min.js') }}"></script>
-<!-- FastClick -->
-<script src="{{ asset('/bower_components/fastclick/lib/fastclick.js') }}"></script>
+<script src="{{ asset('/bower_components/jquery-knob/js/jquery.knob.js') }}"></script>
 <!-- AdminLTE App -->
-<script src="{{ asset('/dist/js/adminlte.min.js') }}"></script>
+
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('/dist/js/demo.js') }}"></script>
+
 
 
 <script>
